@@ -3,49 +3,78 @@ body{
 }
 
 div.code{
-	width: 400px;
-	height: 150px;
+	width: 640px;
+	height: 328px;
 	background-color: white;
 	display: inline-block;
 	justify-content: center;
-	margin: 250px 530px;
-	border-radius: 10px;
+	margin: 170px 400px;
+	border-radius: 4px;
 	padding: 30px;
+	position: relative;
 }
 
 h3{
 	text-align: center;
-	font-family: 'Sora';
 	font-family: 'Sora', sans-serif;
+	font-size: 16px;
 }
 
 p{
 	display: flex;
 	justify-content: center;
-	font-family: 'Sora';
 	color: #A9A9A9;
-	font-size: 12px;
+	font-size: 14px;
 	font-family: 'Sora', sans-serif;
+	text-align: center;
 }
 
 input{
-	width: 35px;
-	height: 35px;
-	display: inline;
-	border-radius: 5px;
+	width: 48px;
+	height: 48px;
+	border-radius: 12px;
 	border: 0.5px solid #DADADA;
 	background-color: #FFFFFF;
+	box-sizing: border-box;
 	color: black;
-    margin-left: 40px;
     font-family: 'Sora', sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+
+.n1{
+	position: absolute;
+	top: 150px;
+	left: 230px;
+}
+
+.n2{
+	position: absolute;
+	top: 150px;
+	left: 290px;
+}
+
+.n3{
+	position: absolute;
+	top: 150px;
+	left: 350px;
+}
+
+.n4{
+	position: absolute;
+	top: 150px;
+	left: 410px;
 }
 
 button{
-	width: 200px;
-	height: 25px;
+	width: 384px;
+	height: 48px;
 	background-color: #232529;
+	position: absolute;
+	top: 270px;
+	left: 160px;
 	color: white;
-	margin: 15px 95px;
 	border: 0;
 	font-family: 'Sora', sans-serif;
+	font-size: 20px;
 }
