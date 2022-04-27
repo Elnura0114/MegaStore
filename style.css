@@ -30,11 +30,12 @@ button{
 	width: 384px;
 	height: 48px;
 	background-color: #232529;
+	border-radius: 4px;
 	color: white;
 	margin: 8px 95px;
 	border: 0;
 	font-family: 'Sora', sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 	position: absolute;
 	top: 390px;
 	left: 470px;

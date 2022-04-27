@@ -22,12 +22,14 @@ input{
 
 .all{
 	opacity: 50%;
+	border: 0.5px solid black;
 	color: #DADADA;
+	margin-left: 10px;
 }
 
 .F{
 	position: absolute;
-	width: 168px;
+	width: 212px;
 	height: 48px;
 	left: 10px;
 	top: 120px;
@@ -40,11 +42,11 @@ input{
 
 .I{
 	position: absolute;
-	width: 200px;
+	width: 212px;
 	height: 48px;
-	left: 200px;
+	left: 235px;
 	top: 120px;
-	 font-family: 'Sora', sans-serif;
+	font-family: 'Sora', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -53,9 +55,9 @@ input{
 
 .O{
 	position: absolute;
-	width: 245px;
+	width: 212px;
 	height: 48px;
-	left: 425px;
+	left: 460px;
 	top: 120px;
 	font-family: 'Sora', sans-serif;
 	font-style: normal;
@@ -72,11 +74,11 @@ input{
 
 .date{
 	position: absolute;
-	width: 168px;
+	width: 212px;
 	height: 48px;
 	left: 10px;
 	top: 220px;
-	 font-family: 'Sora', sans-serif;
+	font-family: 'Sora', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -85,9 +87,9 @@ input{
 
 .addres{
 	position: absolute;
-	width: 470px;
+	width: 435px;
 	height: 48px;
-	left: 200px;
+	left: 235px;
 	top: 220px;
 	 font-family: 'Sora', sans-serif;
 	font-style: normal;
@@ -98,7 +100,7 @@ input{
 
 .id-number{
 	position: absolute;
-	width: 168px;
+	width: 212px;
 	height: 48px;
 	left: 10px;
 	top: 300px;
@@ -111,9 +113,9 @@ input{
 
 .INN{
 	position: absolute;
-	width: 200px;
+	width: 212px;
 	height: 48px;
-	left: 200px;
+	left: 235px;
 	top: 300px;
 	font-family: 'Sora', sans-serif;
 	font-style: normal;
@@ -124,9 +126,9 @@ input{
 
 .get-date{
 	position: absolute;
-	width: 245px;
+	width: 212px;
 	height: 48px;
-	left: 428px;
+	left: 460px;
 	top: 300px;
 	font-family: 'Sora', sans-serif;
 	font-style: normal;
@@ -137,7 +139,7 @@ input{
 
 .number{
 	position: absolute;
-	width: 168px;
+	width: 212px;
 	height: 48px;
 	left: 10px;
 	top: 370px;
@@ -150,9 +152,9 @@ input{
 
 .email1{
 	position: absolute;
-	width: 200px;
+	width: 212px;
 	height: 48px;
-	left: 200px;
+	left: 235px;
 	top: 370px;
 	font-family: 'Sora', sans-serif;
 	font-style: normal;
@@ -163,9 +165,9 @@ input{
 
 .choice{
 	position: absolute;
-	width: 245px;
+	width: 212px;
 	height: 48px;
-	left: 425px;
+	left: 460px;
 	top: 370px;
 	font-family: 'Sora', sans-serif;
 	font-style: normal;
@@ -176,7 +178,7 @@ input{
 
 .leave-addres{
 	position: absolute;
-	width: 392px;
+	width: 437px;
 	height: 48px;
 	left: 10px;
 	top: 440px;
@@ -191,24 +193,18 @@ input{
 
 .btn{
 	position: absolute;
-	width: 350px;
+	width: 384px;
 	height: 48px;
-	left: 180px;
+	left: 160px;
 	top: 530px;
 	font-family: 'Sora', sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 20px;
     background-color: #232529;
-    border-radius: 10px;
+    border-radius: 4px;
     color: white;
 
 }
 
 
-::placeholder{
-    font-family: 'Sora', sans-serif;
-	font-style: normal;
-	font-weight: 200;
-	font-size: 14px;    
-}
