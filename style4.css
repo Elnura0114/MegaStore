@@ -6,28 +6,41 @@ body{
 }
 
 .container{
-	height: 576px;
+	height: 608px;
 	width: 664px;
+	margin-top: 70px;
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
 	box-sizing: border-box;
 	border-radius: 8px;
 	background-color : white;
-	padding: 20px;
+	padding: 5px;
 	font-family: 'Sora', sans-serif;
+}
+
+h3, p{
+	padding: 5px;
 }
 
 .block1{
 	width: 664px;
 	height: 264;
+	margin-top: 10px;
 	display: inline-block;
 	justify-content: space-evenly;
 }
 
+.all{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: 'Sora', sans-serif;
+	font-size: 14px;
+}
+
 .company{
-	width: 330px;
-	height: 40px;
+	width: 405px;
+	height: 48px;
 	border-radius: 10px;
 	opacity: 50%;
 	border: 0.5px solid black;
@@ -35,8 +48,8 @@ body{
 }
 
 .work{
-	width: 270px;
-	height: 40px;
+	width: 195px;
+	height: 48px;
 	border-radius: 10px;
 	opacity: 50%;
 	border: 0.5px solid black;
@@ -44,7 +57,7 @@ body{
 
 .money{
 	width: 300px;
-	height: 40px;
+	height: 48px;
 	border-radius: 10px;
 	opacity: 50%;
 	border: 0.5px solid black;
@@ -52,15 +65,15 @@ body{
 
 .money3{
 	width: 300px;
-	height: 40px;
+	height: 48px;
 	border-radius: 10px;
 	opacity: 50%;
 	border: 0.5px solid black;
 }
 
 .mobile{
-	width: 610px;
-	height: 40px;
+	width: 620px;
+	height: 48px;
 	border-radius: 10px;
 	opacity: 50%;
 	border: 0.5px solid black;
@@ -68,7 +81,7 @@ body{
 
 .price{
 	width: 195px;
-	height: 40px;
+	height: 48px;
 	border-radius: 10px;
 	opacity: 50%;
 	border: 0.5px solid black;
@@ -76,7 +89,7 @@ body{
 
 .sht{
 	width: 195px;
-	height: 40px;
+	height: 48px;
 	border-radius: 10px;
 	opacity: 50%;
 	border: 0.5px solid black;
@@ -84,7 +97,7 @@ body{
 
 .total-cost{
 	width: 195px;
-	height: 40px;
+	height: 48px;
 	border-radius: 10px;
 	opacity: 50%;
 	border: 0.5px solid black;
@@ -92,7 +105,7 @@ body{
 
 .credit{
 	width: 195px;
-	height: 40px;
+	height: 48px;
 	border-radius: 10px;
 	opacity: 50%;
 	border: 0.5px solid black;
@@ -100,26 +113,28 @@ body{
 
 .date{
 	width: 195px;
-	height: 40px;
+	height: 48px;
 	border-radius: 10px;
 	opacity: 50%;
 	border: 0.5px solid black;
 }
 
 .addres{
-	width: 610px;
-	height: 40px;
+	width: 620px;
+	height: 48px;
 	border-radius: 10px;
 	opacity: 50%;
 	border: 0.5px solid black;
 }
 
 .btn{
-	width: 270px;
-	height: 40px;
+	width: 384px;
+	height: 48px;
 	background-color: #232529;
 	border-radius: 4px;
 	color: white;
 	font-family: 'Sora', sans-serif;
-	font-size: 18px;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 130px;
 }
