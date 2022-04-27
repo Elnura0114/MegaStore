@@ -1,0 +1,35 @@
+body{
+	background-color: black;
+}
+
+div.sign{
+	width: 400px;
+	height: 150px;
+	background-color: white;
+	display: inline-block;
+	justify-content: center;
+	margin: 250px 530px;
+	border-radius: 10px;
+	padding: 30px;
+	font-family: 'Sora', sans-serif;
+}
+
+h3{
+	text-align: center;
+}
+
+
+input{
+	width: 400px;
+	height: 30px;
+}
+
+button{
+	width: 200px;
+	height: 25px;
+	background-color: #232529;
+	color: white;
+	margin: 8px 95px;
+	border: 0;
+	font-family: 'Sora', sans-serif;
+}
