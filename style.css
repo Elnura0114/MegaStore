@@ -3,12 +3,12 @@ body{
 }
 
 div.sign{
-	width: 400px;
-	height: 150px;
+	width: 640px;
+	height: 264px;
 	background-color: white;
 	display: inline-block;
 	justify-content: center;
-	margin: 250px 530px;
+	margin: 180px 400px;
 	border-radius: 10px;
 	padding: 30px;
 	font-family: 'Sora', sans-serif;
@@ -16,20 +16,26 @@ div.sign{
 
 h3{
 	text-align: center;
+	font-size: 16px;
 }
 
 
 input{
-	width: 400px;
-	height: 30px;
+	width: 608px;
+	height: 48px;
+	font-family: 'Sora', sans-serif;
 }
 
 button{
-	width: 200px;
-	height: 25px;
+	width: 384px;
+	height: 48px;
 	background-color: #232529;
 	color: white;
 	margin: 8px 95px;
 	border: 0;
 	font-family: 'Sora', sans-serif;
+	font-size: 22px;
+	position: absolute;
+	top: 390px;
+	left: 470px;
 }
